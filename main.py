@@ -282,6 +282,6 @@ def calculate_label_accuracy(pred, gt, max_digit):
 
 
 if __name__ == '__main__':
-    model_path = "D:/PycharmProjects/CS552Assignment4/five_digit_model"
-    #training(model_path, read_data=True)
-    evaluate(model_path, test_size=1500, max_digit=5, read_data=False)
+    #model_path =  ""
+    training(model_path, read_data=True)
+    #evaluate(model_path, test_size=1500, max_digit=5, read_data=False)
