@@ -1,7 +1,7 @@
 import numpy as np
 import tensorflow as tf
 
-from CS552Assignment4.input_generator import generate_data, pos_to_label
+from input_generator import generate_data, pos_to_label
 
 CONV_FILTER_SIZE = [3, 3]
 STRIDE_SIZE = [2, 2]
